@@ -1,0 +1,19 @@
+- User enters total cost of experience [x]
+- User enters percentage of tip [x]
+- App calculates the final amount of percentage from total cost [x]
+- App displays this amount on HTML page [x]
+
+Extra:
+- User enters total amount of people paying for experience [x]
+- App will calculate the amount each person pays tip for [x]
+- When no number or people amount is inputted, 
+    an error should be displayed to user [x]
+- Slider should change colour depending on number amount [x]
+
+Refactoring:
+- Code should be organised with no repetition [x]
+
+Design: 
+- Include background image of food [x]
+- Include consistent colour theme in buttons and font [x]
+- Improve design of buttons, textbox and container [x]

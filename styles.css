@@ -1,0 +1,146 @@
+/* Background */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mukta', sans-serif;
+  }
+
+html { 
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), 
+                url(./image/grocery-background.jpg) no-repeat center center/cover;
+    background-size: cover;
+}
+
+/* Utilities */
+.container {
+    background-color: #ddd7a8;
+    margin: 150px auto;
+    width: 500px;
+    height: 600px;
+    padding: 40px;
+    border-radius: 5px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h3 {
+  padding: 10px;
+  
+  font-size: 1rem;
+}
+
+.textbox {
+  display: block;
+  margin: 40px auto;
+}
+
+.textbox input {
+  border-color: #993333;
+  outline: none;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+.textbox input, .textbox h3 {
+    display: inline;
+}
+
+/* Text Area */
+.cost-header h3 {
+  padding-right: 10px;
+}
+
+.pound-sign {
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+/* Percentage Area */
+.tip-display {
+  margin-left: 10px;
+  color: #993333;
+}
+
+.tip-percentage input {
+    margin-left: 5px;
+}
+
+/* Slider */
+#slider {
+    -webkit-appearance: none;
+    width: 45%;
+    height: 10px;
+    background: #fff;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: 0.2s;
+    transition: opacity 0.2s;
+    border-radius: 12px;
+    box-shadow: 0px 1px 3px #000
+  }
+  
+#slider:hover {
+    opacity: 1;
+  }
+  
+#slider::-webkit-slider-thumb {
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    background: #000;
+    border-radius: 50%
+  }
+
+/* Drop down menu */
+.click{
+  background-color: #993333;
+  opacity: 0.7;
+}
+
+.click:hover {
+  opacity: 1;
+}
+
+.click, .option {
+  text-align: center;
+  padding: 10px;
+  border: none;
+  width: 300px;
+  color:#fff;
+  transition: 0.3s;
+  border-radius: 5px;
+}
+
+.option {
+  background-color: #a74a4a;
+}
+
+/* Button */
+.calculate-btn {
+  background-color: #993333;
+  color: #fff;
+  border: none;
+  opacity: 0.7;
+  width: 150px;
+  height: 50px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+}
+
+.calculate-btn:hover {
+  opacity: 1;
+}
+
+/* Total Amount Area*/
+.tip-amount, .pay-amount {
+  font-size: 1.5rem;  
+  font-weight: bold;
+  margin-top: 30px;
+} 
+

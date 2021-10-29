@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Tip Calculator</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="main-header">Tip Calculator</h1>
+
+      <!-- Total Cost Amount -->
+      <div class="textbox total-cost">
+        <div class="cost-header">
+          <h3>Total bill amount:</h3>
+        </div>
+        <div class="cost-input">
+          <span class="pound-sign">£</span>
+          <input type="text" class="total-input" />
+        </div>
+      </div>
+
+      <!-- Tip Percentage Amount -->
+      <div class="textbox tip-percentage">
+        <div class="percentage-display">
+          <h3>Tip percentage:<span class="tip-display">0</span>%</h3>
+        </div>
+        <div class="slide">
+          <input
+            type="range"
+            min="0"
+            max="100"
+            value="0"
+            step="1"
+            id="slider"
+          />
+        </div>
+      </div>
+
+      <!-- People Amount -->
+      <div class="textbox dropdown">
+        <select class="click">
+          <option class="option" value="0">
+            How many people will contribute?
+          </option>
+          <option class="option" value="1">1 - Treating Yourself 😊</option>
+          <option class="option" value="2">2 - Date Night 🌹</option>
+          <option class="option" value="3">3 - Third Wheel? 🤣</option>
+          <option class="option" value="4">4 - Double Date 😎</option>
+          <option class="option" value="5">5 - Family Outing 👨‍👩‍👧‍👦</option>
+          <option class="option" value="6">6 - Big event! 🥂</option>
+          <option class="option" value="7">7 - Wonder who's paying? 💸</option>
+          <option class="option" value="8">8 - 😱</option>
+        </select>
+      </div>
+
+      <!-- Total Calculation -->
+      <div class="calculate-amount">
+        <button class="calculate-btn">Calculate</button>
+        <div class="tip-amount"><h3></h3></div>
+        <div class="pay-amount"><h3></h3></div>
+      </div>
+    </div>
+  </body>
+  <script src="app.js" charset="utf-8"></script>
+</html>
